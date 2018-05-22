@@ -9,7 +9,7 @@ The application is implemented using a [Node.js](https://nodejs.org/en/) and [Ex
 
 ## Demo
 
-The demo of *Outfitter* can be found [here](https://outfitter-rva.herokuapp.com/) on Heroku.
+The demo of *Outfitter* can be found [here](https://outfitter-rva.herokuapp.com/) on Heroku. It has not been optimized for desktop, so view it on a mobile device.
 
 ### Installation
 
