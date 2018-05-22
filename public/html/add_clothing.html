@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <!-- reset.css -->
+        <link rel="stylesheet" type="text/css" href="../css/reset.css">
+        <!-- style.css -->
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <!-- slideshow.css -->
+        <link rel="stylesheet" type="text/css" href="../css/slideshow.css">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+        <!-- AJAX -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap js -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <!--Animate.css-->
+        <link rel="stylesheet" href="../css/animate.min.css">
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/5.0.1/firebase.js"></script>
+        <script src="../js/firebase.js"></script>
+        <!-- Add Clothing js -->
+        <script src="../js/add_clothing.js"></script>
+        <title>Outfitter - Add Clothing</title>
+    </head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="name">
+          <img src="../images/navLogo.png" id="logo">
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="./view_clothing">View Clothing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./add_clothing">Add Clothing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./view_outfits">View Outfits</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="signout">Sign Out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+        <div class="container">
+
+
+        <!-- Buttons -->
+        <div class="row align-items-center" id="indexContainer">
+
+            <div class="col align-self-center">
+
+                <div class="col-12">
+
+                    <form>
+                        <div class="form-group">
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                    </form>
+                    <!-- <img src="" height="200" width="100" alt="Image preview" id="image"> -->
+
+                    
+                </div>
+            </form>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select Item Type</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option value = "top">Top</option>
+                    <option value = "bottom">Bottom</option>
+                    <option value = "shoes">Shoes</option>
+
+                    <option value = "bag">Bag</option>
+                    <option value = "hat">Hat</option>
+                    <option value = "toptwo">Jacket</option>
+              
+                </select>
+                <center>
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1" id = "name">
+                </center>
+                <center>
+                    <button id="indexButton" type="button" class="btn btn-outline-primary btn-lg btn-block">Upload to Closet</button>
+                </center>
+            </div>
+
+        </div>
+
+
+    </div>
+    
+</body>
+
+</html>
