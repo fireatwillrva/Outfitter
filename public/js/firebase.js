@@ -43,17 +43,17 @@ var firebasePost = function (table, userid, file,data) {
 }
 firebase.auth().onAuthStateChanged(function (user) {
 
-    if (user) {
-        userid = user;
-        console.log("welcome")
-    }
-    if(user == undefined) {
-        console.log("hello")
-        if(window.location != "http://localhost:8080/") {
-            console.log("goodbye")
-            window.location = "/"
-        }
-    }
+    // if (user) {
+    //     userid = user;
+    //     console.log("welcome")
+    // }
+    // if(user == undefined) {
+    //     console.log("hello")
+    //     if(window.location != "http://localhost:8080/") {
+    //         console.log("goodbye")
+    //         window.location = "/"
+    //     }
+    // }
 });
 $(document).ready(function () {
    
