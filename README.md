@@ -26,17 +26,6 @@ To install the application follow the instructions below:
 ### MySQL Database Setup
 
 In order to run this application, you should have the MySQL database already set up on your machine. If you don't, visit the [MySQL installation page](https://dev.mysql.com/doc/refman/5.6/en/installing.html) to install the version you need for your operating system. Once you have MySQL isntalled, import the database with the SQL code found in [schema.sql](./db/schema.sql) in the *db* folder. You can populate the table by then importing [seeds.sql](./db/seeds.sql) or by adding them in the application.
-
-### Interface Setup
-
-In order to get your app online, you'll need to connect to a port in [MAMP](https://www.mamp.info/en/). Click on the **Start Servers** button in MAMP then click the **Open WebStart page** button. Your port information will be listed on the left side under *My SQL*. Take that information and replace the connection parameters on line 13 of [connection.js](./config/connection.js) (as shown below) in the *config* folder with your port info.
-
-``` Javascript
-	host: 'localhost',
-	port: 8889,
-	user: 'root',
-	password: 'root',
-```
 	
 ### Running Locally
 
