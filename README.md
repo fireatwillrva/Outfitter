@@ -36,3 +36,8 @@ To run the application locally and access it in your browser, open [server.js](.
 ```
 	
 The application will now be running locally in your browser at the URL `http://localhost:8080`.
+
+### Authors
+
+* *Front-End*: Louis Boehling & Will Fisher
+* *Back-End*: Lacy Forrest & Luke Myers
